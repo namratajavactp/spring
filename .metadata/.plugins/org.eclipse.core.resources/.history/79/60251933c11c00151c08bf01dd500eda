@@ -1,0 +1,27 @@
+package nama.Springaoplab_todo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	try
+    	{
+    		ApplicationContext ctx=new ClassPathXmlApplicationContext("app-context.xml");
+    		springidol.Stock t=(springidol.Stock)ctx.getBean("volenteer");
+			springidol.StockReport m=(springidol.StockReport)ctx.getBean("report");
+			t.purchaseStock("citiustech shares");
+			
+   		 
+    	}
+    	catch(Exception exp)
+		{
+			exp.printStackTrace();
+		} 
+			
+			
+    }
+}

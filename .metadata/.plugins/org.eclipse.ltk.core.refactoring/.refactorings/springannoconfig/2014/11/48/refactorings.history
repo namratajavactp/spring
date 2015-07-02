@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;helloI.impl&apos; to &apos;hello.impl&apos;&#x0D;&#x0A;- Original project: &apos;springannoconfig&apos;&#x0D;&#x0A;- Original element: &apos;springannoconfig/src/main/java/helloI.impl&apos;&#x0D;&#x0A;- Renamed element: &apos;springannoconfig/src/main/java/hello.impl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;helloI.impl&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;helloI.impl" name="hello.impl" qualified="false" references="true" stamp="1417009024998" textual="false" version="1.0"/>
+</session>

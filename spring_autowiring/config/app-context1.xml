@@ -1,0 +1,34 @@
+<!--Spring-Customer.xml-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+ <!-- 
+	<bean id="Customer" class="com.customer.Customer">
+ 
+		<constructor-arg>
+			<value>namrata</value>
+		</constructor-arg>
+ 
+		<constructor-arg type="int">
+			<value>188</value>
+		</constructor-arg>
+ 
+		<constructor-arg>
+			<value>28</value>
+		</constructor-arg>
+    </bean>   -->
+    
+    
+    <bean id="Customer" class="com.customer.Customer">
+ 
+		<constructor-arg index="0" value="namrata"/>
+			
+ 
+		<constructor-arg index="2" value="88"/>
+		<constructor-arg index="1" value="24"/>
+			
+    </bean>
+ 
+</beans>

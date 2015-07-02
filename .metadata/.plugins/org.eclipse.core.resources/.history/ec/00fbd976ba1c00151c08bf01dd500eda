@@ -1,0 +1,11 @@
+package springidol;
+
+
+
+
+public interface StockTransactionTracker 
+{
+	public void purchaseStock(String stockName);
+	public String getStockName();
+	
+}

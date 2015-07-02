@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring-config-call.xml&apos; to &apos;Mod6_SpringJDBC/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;Mod6_SpringJDBC&apos;&#x0D;&#x0A;- Destination element: &apos;Mod6_SpringJDBC/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;spring-config-call.xml&apos;" description="Copy file" destination="/src\/main\/resources" element1="src/java/resources/spring-config-call.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1417329920237" units="0" version="1.0"/>
+</session>

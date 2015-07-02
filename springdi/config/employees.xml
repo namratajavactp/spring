@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+<bean id="birthDate" class="periop.springdi.BirthDate">
+	<property name="date" value="25" />
+	<property name="month" value="07" />
+	<property name="year" value="1979" />
+</bean>
+
+<bean id="employee" class="periop.springdi.Employee">
+ <property name="firstname" value="amit" />
+ <property name="sal" value="800000" /> 
+
+ <property name="d" ref="birthDate" />
+ 
+
+<!--
+   following is the defination of inner bean where id attr
+   is not required. BirthDate inner bean is directly injected
+   into property named birthdate.
+   Inner Beans cant be reused.Other beans cannot refer to this bean now
+
+<property name="birthdate">
+	<bean class="com.util.BirthDate" >
+		<property name="date" value="25" />
+		<property name="month" value="07" />
+		<property name="year" value="1979" />
+	</bean>
+</property> -->
+
+</bean>
+
+</beans>

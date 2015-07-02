@@ -1,0 +1,5 @@
+package training.spring.annotation;
+
+public class AddUserFormController {
+
+}
